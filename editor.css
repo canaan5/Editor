@@ -1,0 +1,70 @@
+html, body{
+    background:#eee;
+}
+
+#tool-bar {
+    background: #293a4a;
+}
+
+div.buttons {
+    margin: 10px;
+    /*position: fixed;*/
+}
+div.buttons button {
+    border :none;
+    cursor: pointer;
+    background: #34495e;
+    color: #fff;
+    float: left;
+    padding: 5px 15px;
+    margin: 10px 5px;
+}
+div.buttons button:hover {
+    background: #446484;
+}
+
+.separator {
+    position: relative;
+    top: 15px;
+    border-left: 2px dotted #34495e;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+
+/* Pages */
+#editor-page-wrapper {
+    margin-top: 50px;
+}
+#editor-page {
+    margin-bottom: 20px;
+    color: #000;
+    width: 21cm;
+    min-height: 17cm;
+    /*padding:2cm;*/
+    display: block;
+    background: #fff;
+    padding: 20px 2em;
+}
+
+#editor-page:nth-child(2) {
+    margin-top: 20px;
+}
+
+.editor-page-margin-left {
+    float: left;
+    width: 10.5cm !important;
+}
+.editor-page-margin-right {
+    float: right;
+    width: 10.5cm !important;
+}
+
+.editor-page-content {
+    float: left;
+    width: 19cm;
+    /*min-height: 29.7cm;*/
+    /*min-height: 29.7cm;*/
+    min-height: 20.7cm;
+    padding: 1px 10px;
+}
